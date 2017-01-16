@@ -5,7 +5,7 @@
 -- 
 -- Create Date: 10/08/2016 12:42:02 AM
 -- Design Name: 
--- Module Name: module_2 - Behavioral
+-- Module Name: model_2 - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -32,14 +32,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity module_2 is
+entity model_2 is
     Port ( X : in STD_LOGIC;
            Y : in STD_LOGIC;
            Z : in STD_LOGIC;
            T : out STD_LOGIC);
-end module_2;
+end model_2;
 
-architecture Behavioral of module_2 is
+architecture Behavioral of model_2 is
 
 begin
 T<= X or Y or Z;
